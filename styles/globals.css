@@ -14,3 +14,74 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.img-mini {
+  height: 64px !important;
+}
+
+.featured_img_small {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.featured_img_med {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.featured_img_large {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+body {
+  background-color: #8fc7c6 !important;
+}
+
+.overlay-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav h1 {
+  display: inline-block;
+  padding: .5rem;
+}
+
+.blogs .card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(211, 211, 211);
+  text-decoration: none;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding: 0 !important;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+}
+
+.white {
+  background: #ffffff;
+  padding: 32px !important;
+}
+
+.blog {
+  padding: 8px 0px
+}
+
+.ctg_About_card {
+  max-height: 200px;
+  width: 200px
+}
